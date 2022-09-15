@@ -1,0 +1,85 @@
+.wwe_logo {
+  width: 100px;
+  border: 0;
+}
+
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    z-index: -1;
+    display: flex;
+    align-items: center;
+}
+
+.background{
+    width:100%;
+    height:100%;
+}
+  
+  header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 20px;
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ADD8E6;
+  z-index:5;
+  opacity: 0.75;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+a:hover { 
+  filter: brightness(500%);
+  filter: drop-shadow(10px 15px 15px gold);
+  text-decoration: underline;
+}
+  
+#wwebrands {
+  width: 100%;
+  height: auto;
+  overflow:hidden;
+  z-index: -1;
+    
+}
+
+  .brandspic {
+    opacity: 0.8;
+    width: 100%;
+    z-index: -1;
+  }
+ 
+#mid {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: orange;
+  opacity: 0.9;
+}
+
+#greatvideo {
+  overflow: hidden;
+  width: 100%;
+}
+
+#roster {
+  margin-left: 13%;
+  margin-top: -23%;
+  position: absolute;
+  display: flex; 
+  justify-content: space-between;
+  width: 75%;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 20px;
+}
